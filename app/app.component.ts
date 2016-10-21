@@ -6,7 +6,7 @@ import { Meal } from './meal.model';
   template: `
   <div class="container">
     <div class="jumbotron">
-      <h1>Meal Tracker</h1>
+      <h1>meal tracker</h1>
     </div>
     <new-meal
       (newMealSender)="addMeal($event)"
@@ -26,10 +26,10 @@ import { Meal } from './meal.model';
 
 export class AppComponent {
   public masterMealList: Meal[] = [
-    new Meal("Oatmeal", 250, "Apple Cinnamon"),
-    new Meal("Spring Rolls", 240, "I ate two"),
-    new Meal("Tacos", 480, "No dairy"),
-    new Meal("Pizza", 750, "It was vegan")
+    new Meal("oatmeal", 250, "Apple Cinnamon"),
+    new Meal("spring rolls", 240, "I ate two"),
+    new Meal("tacos", 480, "No dairy"),
+    new Meal("pizza", 750, "It was vegan")
   ];
   selectedMeal: Meal = null;
   showDetails(clickedMeal: Meal) {

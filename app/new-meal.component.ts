@@ -6,7 +6,7 @@ import { Meal } from './meal.model';
   template: `
   <div class="col-xs-6">
     <div id="newMeal" class="well">
-      <h2>New Meal</h2>
+      <h2>new meal</h2>
       <div>
         <label>Meal Name:</label><br>
         <input #newName>

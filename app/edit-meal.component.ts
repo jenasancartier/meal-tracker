@@ -7,7 +7,7 @@ import { Meal } from './meal.model';
   <div class="col-xs-6">
     <div *ngIf="childSelectedMeal">
       <div id="editMeal" class="well">
-        <h2>Edit Meal</h2>
+        <h2>edit meal</h2>
         <div>
           <label>Meal Name:</label><br>
           <input [(ngModel)]="childSelectedMeal.name">
