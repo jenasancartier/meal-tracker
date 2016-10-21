@@ -14,7 +14,9 @@ import { Meal } from './meal.model';
       [childSelectedMeal]="selectedMeal"
       (doneClickedSender)="finishedEditing()"
     ></edit-meal>
-    <new-meal></new-meal>
+    <new-meal
+      (newMealSender)="addMeal($event)"
+    ></new-meal>
   </div>
   `
 })
@@ -31,5 +33,8 @@ export class AppComponent {
   }
   finishedEditing() {
     this.selectedMeal = null;
+  }
+  addMeal(newMealFromChild: Meal) {
+    this.masterMealList.push(newMealFromChild);
   }
 }
