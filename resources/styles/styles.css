@@ -1,21 +1,35 @@
+body {
+  background-image: url("../../resources/images/warm.jpg");
+}
+
 input {
   margin-bottom: 10px;
   text-align: center;
 }
 
+label {
+  color: black;
+}
+
+h2 {
+  color: black;
+}
 
 .jumbotron {
   margin-top: 10px;
+  background-color: rgba(123, 100, 99, 0.0);
 }
 
 .jumbotron h1 {
   text-align: center;
-  color: tomato;
+  color: white;
+  font-size: 6em;
 }
 
 #list {
   border: solid 1px pink;
   margin-bottom: 15px;
+  color: black;
 }
 
 #options {
@@ -25,4 +39,5 @@ input {
 
 #newMeal, #editMeal {
   text-align: center;
+  border-radius: 50%;
 }
