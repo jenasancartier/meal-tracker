@@ -8,9 +8,9 @@ import { Meal } from './meal.model';
     <div id="options" class="col-xs-6 col-xs-offset-3">
       <select class="list form-control"
       (change)="onChange($event.target.value)">
-        <option value="all">Show all</option>
-        <option value="lowCalorie">Show Low Calorie Meals</option>
-        <option value="highCalorie">Show High Calorie meals</option>
+        <option value="all">show all</option>
+        <option value="lowCalorie">show low calorie foods</option>
+        <option value="highCalorie">ahow high calorie foods</option>
       </select>
     </div>
   </div>

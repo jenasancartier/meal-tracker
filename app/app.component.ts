@@ -6,7 +6,8 @@ import { Meal } from './meal.model';
   template: `
   <div class="container">
     <div class="jumbotron">
-      <h1>meal tracker</h1>
+    <img src="../../resources/images/silverware.png" alt="fork and spoon icon">
+    <h1>meal tracker</h1>
     </div>
     <new-meal
       (newMealSender)="addMeal($event)"

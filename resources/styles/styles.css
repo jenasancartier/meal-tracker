@@ -18,6 +18,11 @@ h2 {
   font-size: 4em;
 }
 
+img {
+  display: block;
+  margin: auto;
+}
+
 .jumbotron {
   margin-top: 10px;
   background-color: rgba(123, 100, 99, 0.0);
