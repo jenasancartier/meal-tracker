@@ -28,9 +28,9 @@ import { Meal } from './meal.model';
 export class AppComponent {
   public masterMealList: Meal[] = [
     new Meal("oatmeal", 250, "apple cinnamon"),
-    new Meal("spring rolls", 240, "vegan"),
-    new Meal("tacos", 480, "no dairy"),
-    new Meal("pizza", 750, "okay, this was a splurge")
+    new Meal("peanut butter toast", 350, "mid-day power snack"),
+    new Meal("cereal & strawberries", 400, "used almond milk"),
+    new Meal("veggie pot pie", 550, "such comfort food")
   ];
   selectedMeal: Meal = null;
   showDetails(clickedMeal: Meal) {
