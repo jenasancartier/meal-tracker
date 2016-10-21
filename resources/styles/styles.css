@@ -9,6 +9,7 @@ input {
 
 label {
   color: black;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h2 {
@@ -38,6 +39,10 @@ h2 {
 
 #list h3 {
   font-family: 'Abril Fatface', cursive;
+}
+
+#list p {
+  font-family: 'Open Sans', sans-serif;
 }
 
 #options {

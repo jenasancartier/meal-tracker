@@ -8,15 +8,15 @@ import { Meal } from './meal.model';
     <div id="newMeal" class="well">
       <h2>new meal</h2>
       <div>
-        <label>Meal Name:</label><br>
+        <label>meal name:</label><br>
         <input #newName>
       </div>
       <div>
-        <label>Calories:</label><br>
+        <label>calories:</label><br>
         <input #newCalories>
       </div>
       <div>
-        <label>Meal Details:</label><br>
+        <label>meal details:</label><br>
         <input #newDetails>
         <br>
         <button

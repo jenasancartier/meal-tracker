@@ -9,15 +9,15 @@ import { Meal } from './meal.model';
       <div id="editMeal" class="well">
         <h2>edit meal</h2>
         <div>
-          <label>Meal Name:</label><br>
+          <label>meal name:</label><br>
           <input [(ngModel)]="childSelectedMeal.name">
         </div>
         <div>
-          <label>Calories:</label><br>
+          <label>calories:</label><br>
           <input [(ngModel)]="childSelectedMeal.calories">
         </div>
         <div>
-          <label>Details:</label><br>
+          <label>details:</label><br>
           <input [(ngModel)]="childSelectedMeal.details">
           <br>
           <button
