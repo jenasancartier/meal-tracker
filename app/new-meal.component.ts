@@ -5,20 +5,23 @@ import { Meal } from './meal.model';
   selector: 'new-meal',
   template: `
   <div class="col-xs-6">
-    <div class="well">
+    <div id="newMeal" class="well">
       <h2>New Meal</h2>
       <div>
-        <label>Enter Meal Name:</label>
+        <label>Meal Name:</label><br>
         <input #newName>
       </div>
       <div>
-        <label>Enter Calories:</label>
+        <label>Calories:</label><br>
         <input #newCalories>
       </div>
       <div>
-        <label>Enter Meal Details:</label>
+        <label>Meal Details:</label><br>
         <input #newDetails>
-        <button (click)="
+        <br>
+        <button
+        class="btn btn-primary"
+        (click)="
         addClicked(newName.value, newCalories.value, newDetails.value);
         newName.value='';
         newCalories.value='';

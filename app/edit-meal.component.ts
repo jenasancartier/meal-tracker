@@ -6,20 +6,23 @@ import { Meal } from './meal.model';
   template: `
   <div class="col-xs-6">
     <div *ngIf="childSelectedMeal">
-      <div class="well">
+      <div id="editMeal" class="well">
         <h2>Edit Meal</h2>
         <div>
-          <label>Enter Meal Name:</label>
+          <label>Meal Name:</label><br>
           <input [(ngModel)]="childSelectedMeal.name">
         </div>
         <div>
-          <label>Enter Calories:</label>
+          <label>Calories:</label><br>
           <input [(ngModel)]="childSelectedMeal.calories">
         </div>
         <div>
-          <label>Enter Details:</label>
+          <label>Details:</label><br>
           <input [(ngModel)]="childSelectedMeal.details">
-          <button (click)="doneClicked()">Done</button>
+          <br>
+          <button
+          class="btn btn-primary"
+          (click)="doneClicked()">Done</button>
         </div>
       </div>
     </div>
