@@ -1,3 +1,14 @@
-h1 {
+.jumbotron h1 {
+  text-align: center;
   color: tomato;
+}
+
+#list {
+  border: solid 1px pink;
+  margin-bottom: 15px;
+}
+
+#options {
+  margin-bottom: 45px;
+  margin-top: 35px;
 }
