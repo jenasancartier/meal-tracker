@@ -11,13 +11,14 @@ export class CaloriecountPipe implements PipeTransform {
     var output: Meal[] = [];
     if(desiredCaloriecount === "highCalorie"){
       for(var i = 0; i < input.length; i++){
-        if(input[i].calories > 500){
+        if(input[i].calories >= 500){
           output.push(input[i]);
         }
       }
+      return output;
     }else if(desiredCaloriecount === "lowCalorie"){
       for(var i = 0; i < input.length; i++){
-        if(input[i].calories < 500){
+        if(input[i].calories <= 500){
           output.push(input[i]);
         }
       }
