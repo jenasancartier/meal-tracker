@@ -4,8 +4,10 @@ import { Meal } from './meal.model';
 @Component({
   selector: 'meal-list',
   template: `
-  <div *ngFor="let currentMeal of childMealList">
+  <div *ngFor="let currentMeal of childMealList | caloriecount">
     <h3>{{currentMeal.name}}</h3>
+    <p>Calories: {{currentMeal.calories}}</p>
+    <p>Details: {{currentMeal.details}}</p>
     <button (click)="editButtonHasBeenClicked(currentMeal)">Edit</button>
   </div>
   `
