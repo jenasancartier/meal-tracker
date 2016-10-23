@@ -12,11 +12,11 @@ A web application that allows a user to log their daily meals and keep track of 
 1. _Clone this repository at:_
   * https://github.com/jenasancartier/meal-tracker.git
 2. _Move into the project's root directory_
-3. _Open the code editor of your choice_
-4. _In the console, run npm install_
-5. _In the console, run bower install_
-6. _In the console, run gulp build to build the project for the first time_
-7. _In the console, run gulp serve to start the development server_
+3. _Open the terminal_
+4. _In the terminal, run npm install_
+5. _In the terminal, run bower install_
+6. _In the terminal, run gulp build to build the project for the first time_
+7. _In the terminal, run gulp serve to start the development server_
 8. _Voila! View the page in the localhost_
 
 ### Support & Contact
