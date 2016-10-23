@@ -10,7 +10,7 @@ import { Meal } from './meal.model';
       (change)="onChange($event.target.value)">
         <option value="all">show all</option>
         <option value="lowCalorie">show low calorie foods</option>
-        <option value="highCalorie">ahow high calorie foods</option>
+        <option value="highCalorie">show high calorie foods</option>
       </select>
     </div>
   </div>
